@@ -17,4 +17,6 @@
 !/log/.keep
 !/tmp/.keep
 
+# ignore misc files
 .byebug_history
+**/.DS_Store
