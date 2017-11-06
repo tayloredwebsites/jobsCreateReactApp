@@ -1,7 +1,8 @@
 require 'test_helper'
 
 class JobTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+  setup do
+    Rails.logger.debug("+++ setup completed +++")
+  end
+
 end
